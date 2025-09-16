@@ -16,7 +16,7 @@ module load gcc
 module load intel
 module load openmpi
 
-DATASET="asteroids.csv"
+DATASET="your_data.csv"
 OUTPUT="output.csv"
 K=3
 NUM_FOLDS=10
@@ -86,3 +86,4 @@ done
 
 
 echo "Experiments completed. Check $GCC_RUNTIME_LOG and $ICC_RUNTIME_LOG for results."
+
